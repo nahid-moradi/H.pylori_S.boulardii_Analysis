@@ -8,7 +8,8 @@ The following statistical methods were used:
 - **Normality assessment:** Shapiro–Wilk test.
 - **Continuous variables:** Independent-samples t-test or Mann–Whitney U test, as appropriate.
 - **Categorical variables:** Chi-square test or Fisher’s exact test, as appropriate.
-- **Effect estimates:** Relative risk (RR) with 95% confidence intervals.
+- **Regression analysis:** Binary logistic regression using extended and reduced multivariable models.
+- **Effect estimates:** Relative risk (RR) with 95% confidence intervals and adjusted odds ratios (aOR) with 95% confidence intervals.
 - **Multiple comparisons:** False discovery rate (FDR) adjustment using the Benjamini–Hochberg procedure.
 - **Data visualization:** Matplotlib.
 
@@ -26,8 +27,5 @@ The analysis uses the following Python libraries:
 - openpyxl
 - IPython
 
-## Data Availability
-The original clinical trial dataset is not publicly available due to confidentiality considerations. A synthetic dataset is provided to demonstrate the analytical workflow and facilitate code testing.
-
-## Disclaimer
-The synthetic dataset consists entirely of fabricated data and does not represent actual trial participants or clinical observations. Results generated using this dataset are for demonstration purposes only and do not reproduce the findings of the original clinical trial.
+## Synthetic Data
+The original clinical trial dataset is not publicly available due to confidentiality considerations. A synthetic dataset is generated using Claude and provided to demonstrate the analytical workflow and facilitate code testing. It does **not** contain any real patient data. It **should not** be used for any scientific conclusion or secondary analysis.
