@@ -14,7 +14,7 @@ The following statistical methods were used:
 - **Data visualization:** Matplotlib.
 
 ## Repository Structure
-- `clinical_trial_analysis.ipynb`: Jupyter Notebook containing the statistical analysis code.
+- `H.pylori_S.boulardii_ANALYSIS.ipynb`: Jupyter Notebook containing the statistical analysis code.
 - `synthetic_data.xlsx`: Synthetic dataset provided for demonstration and code testing.
 
 ## Requirements
