@@ -1,4 +1,3 @@
-# hpylori_sboulardii_rct_analysis
 # H. pylori – S. boulardii RCT Analysis
 
 ## Project Overview
